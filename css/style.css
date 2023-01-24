@@ -4,25 +4,25 @@ body {
     color: #ffffff;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px;
 
   }
-main h1 {
+h1 {
     font-size: 42px;
     text-align: center;
     padding: 15px;
   }
 
-main h2 {
+h2 {
     font-size: 24px;
     color: #0D0D0D;
   }
-  p {
+p {
     font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
   }
-  main img {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -30,24 +30,24 @@ main h2 {
     border: 10px dashed #ddd;
   }
 
-  main div {
+div {
     min-height: 125px;
     padding: 20px;
     border: 3px solid #ddd;
   }
-  main div.introduction {
+div.introduction {
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
   }
-  main div.red {
+div.red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
     border-right: 5px;
-    border-top: 2px;
+    border-bottom: 2px;
   }
-main div.blue {
+div.blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
@@ -55,10 +55,13 @@ main div.blue {
     border-top: 2px;
 }
 
-h2, p .blue  {
+.blue h2 {
     color: #C4C4C4;
 }
-main div.yellow {
+.blue p {
+  color: #C4C4C4;
+}
+div.yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
@@ -68,14 +71,14 @@ main div.yellow {
 .yellow p  {
     color: #707070;
 }
-main div.green {
-    background-color: #00D800;
+div.green {
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
     border-right: 5px;
     border-top: 2px;
 }
-body footer {
+footer {
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
     border: 3px solid #ddd;
