@@ -38,7 +38,7 @@ main h2 {
   main div.introduction {
     border-radius: 15px;
     margin-top: 15px;
-    word-spacing: 200%;
+    line-height: 2;
   }
   main div.red {
     background-color: #FF0000;
